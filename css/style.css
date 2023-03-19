@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-color: rgb(153, 151, 151);
+}
+
+#container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container  .Iphone {
+    background-color: rgb(3, 3, 3);
+    width: 419px;
+    height: 800px;
+    border-width: 4px;
+    border-radius: 50px;
+    border-style: ridge;
+    border-color: rgb(197, 201, 204);
+    overflow: hidden;
+    
+}
+
+.equation-box {
+    display: table-cell;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    font-size: 60px;
+    text-align:end;
+    vertical-align:bottom;
+    width: 415px;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    left: 2px;
+}
+
+.home {
+    background-color: white;
+    border-color: white;
+    border-radius: 40px;
+    width: 150px;
+    position: relative;
+    left: 130px;
+    top: 575px;
+    box-shadow: 0px 5px 80px 6px rgb(255, 255, 255)
+}
+
+.home:hover {
+    transition: all .8s ease-in-out;
+    transform: scale(1.2);
+}
+
+.speaker {
+    background-color: rgb(29, 29, 29);
+    width: 65px;
+    height: 8px;
+    border-radius: 15px;
+    position: relative;
+    left:178px;
+    bottom:245px;
+}
+
+.frontCam {
+    background-color: black;
+    width: 135px;
+    height: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    left: 143px;
+    bottom:210px;
+}
+
+.camera {
+    background-color: rgb(0, 0, 35);
+     width : 10px;
+     height: 10px;
+     border-style:outset;
+     border-width: 2px;
+     border-color: rgb(0, 0, 0);
+     border-radius: 25px;
+     position: relative;
+     left: 155px;
+     bottom: 240px;
+}
+
+.signal {
+    filter: invert(98%) sepia(4%) saturate(887%) hue-rotate(171deg) brightness(114%) contrast(100%);
+    width: 20px;
+    height:20px;
+    position: relative;
+    left: 283px;
+    bottom:270px;
+}
+
+.wifi {
+    filter: invert(98%) sepia(4%) saturate(887%) hue-rotate(171deg) brightness(114%) contrast(100%);
+    width: 20px;
+    height:20px;
+    position: relative;
+    left: 292px;
+    bottom:270px;
+}
+
+.batteryBorder {
+    filter: invert(90%) sepia(0%) saturate(1247%) hue-rotate(183deg) brightness(79%) contrast(80%);
+    width: 30px;
+    height:30px;
+    position: relative;
+    left: 300px;
+    bottom:265px;
+}
+
+.battery {
+    background-color: white;
+    height: 8px;
+    width: 15px;
+    border-radius: 2px;
+    position: relative;
+    left: 351px;
+    bottom: 288px;
+}
+
+.time {
+    color: white;
+    font-family:sans-serif ;
+    font-size: 15px;
+    position: relative;
+    bottom: 295px;
+    left: 40px;
+}
+

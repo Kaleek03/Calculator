@@ -1,0 +1,414 @@
+.num0 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+    text-align: start;
+    padding-left: 15px;
+    border: 0px;
+    width: 170px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 270px;
+    left: 10px;
+    
+
+}
+
+#grid-container button:hover {
+    background-color: rgb(156, 156, 156);
+    transition: all ease-in-out .5s;
+    scale: 1.1;
+}
+
+.equals {
+    background-color: rgb(242, 176, 76);
+    color: white;
+    font-size: 40px;
+    font-family:monospace;
+
+    text-align: end;
+    padding-right: 15px;
+    border: 0px;
+    width: 170px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    top: 370px;
+    left: 240px;
+    
+
+}
+
+#grid-container .equals:hover {
+    background-color: rgb(249, 204, 136);
+    transition: all ease-in-out .5s;
+}
+
+.num1 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 435px;
+    left: 10px;
+    
+
+}
+
+.num2 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 515px;
+    left: 115px;
+}
+
+.num3 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom:595px;
+    left: 230px;
+}
+
+.plus {
+    background-color: rgb(242, 176, 76);
+    
+    color: white;
+    font-size: 40px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    top: 205px;
+    left: 330px;
+}
+
+#grid-container .plus:hover {
+    background-color: rgb(242, 176, 76);
+}
+
+
+.num4 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 763px;
+    left: 10px;
+    
+
+}
+
+#grid-container button:hover {
+    background-color: rgb(156, 156, 156);
+    transition: all ease-in-out .5s;
+}
+
+.num5 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 843px;
+    left: 115px;
+    
+}
+
+#grid-container button:hover {
+    background-color: rgb(156, 156, 156);
+    transition: all ease-in-out .5s;
+}
+
+.num6 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 923px;
+    left: 230px;
+    
+
+}
+
+#grid-container button:hover {
+    background-color: rgb(156, 156, 156);
+    transition: all ease-in-out .5s;
+}
+
+.minus {
+    background-color: rgb(242, 176, 76);
+    
+    color: white;
+    font-size: 40px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    top: 37px;
+    left: 330px;
+}
+
+#grid-container .minus:hover {
+    background-color: rgb(242, 176, 76);
+}
+
+.num7 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 1090px;
+    left: 10px;
+    
+
+}
+
+.num8 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 1170px;
+    left: 115px;
+    
+
+}
+
+.num9 {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 1250px;
+    left: 230px;
+
+}
+
+
+#grid-container button:hover {
+    background-color: rgb(156, 156, 156);
+    transition: all ease-in-out .5s;
+}
+
+.multiply {
+    background-color: rgb(242, 176, 76);
+    
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 130px;
+    left: 330px;
+}
+
+#grid-container .multiply:hover {
+    background-color: rgb(242, 176, 76);
+}
+
+
+.AC {
+    background-color: rgb(195, 192, 192);
+    color: black;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 295px;
+    left: 10px;
+    
+
+}
+
+#grid-container .AC:hover {
+    background-color: rgb(234, 231, 231);
+    transition: all ease-in-out .5s;
+}
+
+.negative {
+    background-color: rgb(195, 192, 192);
+    color: black;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 375px;
+    left:115px;
+    
+
+}
+
+#grid-container .negative:hover {
+    background-color: rgb(234, 231, 231);
+    transition: all ease-in-out .5s;
+}
+
+.percent {
+    background-color: rgb(195, 192, 192);
+    color: black;
+    font-size: 30px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 454px;
+    left: 230px;
+    
+
+}
+
+#grid-container .percent:hover {
+    background-color: rgb(234, 231, 231);
+    transition: all ease-in-out .5s;
+}
+
+.divide {
+    background-color: rgb(242, 176, 76);
+    
+    color: white;
+    font-size: 40px;
+    font-family:monospace;
+
+
+    
+    border: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+
+    position: relative;
+    bottom: 535px;
+    left: 330px;
+}
+
+#grid-container .divide:hover {
+    background-color: rgb(242, 176, 76);
+}
