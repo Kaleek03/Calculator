@@ -18,13 +18,13 @@ body {
     border-radius: 50px;
     border-style: ridge;
     border-color: rgb(197, 201, 204);
-    overflow: hidden;
+    /* overflow: hidden;  */
     
 }
 
 .equation-box {
     display: table-cell;
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(127, 123, 123);
     color: white;
     font-size: 60px;
     text-align:end;
