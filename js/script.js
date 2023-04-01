@@ -25,10 +25,18 @@ const divide = document.querySelector('.divide')
 				button.innerText = i
                 grid.appendChild(button)
 				button.addEventListener("click", buttonUse)
+                button.addEventListener("click", checkCheck)
             
                     function buttonUse() {
                         value += button.value
                     display.innerText = value
+                    }
+                    function checkCheck(){
+                    if (display.innerText.length == 14) {
+                     button.removeEventListener("click", buttonUse)
+                     } else {
+                        return null
+                     }
                     }
                 }
                 //adds event listener to reload page to all clear calculator
@@ -62,8 +70,16 @@ const divide = document.querySelector('.divide')
     }
 
     //pushes symbol to create negative number
-    const
+    const negative = document.querySelector(".negative")
+
+    negative.addEventListener("click", diffPress => {
+        display.innerText = "-" + display.innerText
+    }, {once: true})
+
+
 }
+
+
             
     
 
