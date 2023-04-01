@@ -5,7 +5,6 @@ const equals = document.querySelector('.equals')
 const plus = document.querySelector('.plus')
 const minus = document.querySelector('.minus')
 const multiply = document.querySelector('.multiply')
-const AC = document.querySelector('.AC')
 const negative = document.querySelector('.negative')
 const percent = document.querySelector('.percent')
 const divide = document.querySelector('.divide')	
@@ -31,16 +30,40 @@ const divide = document.querySelector('.divide')
                         value += button.value
                     display.innerText = value
                     }
-
-                    display.addEventListener("", remove)
-                    
-                    function remove() {
-                        if(display.innerText.length == 13) {
-                            console.log("hello")
-                        }
-                    }
                 }
-            }
+                //adds event listener to reload page to all clear calculator
+                const allClear = document.querySelector(".AC")
+
+                allClear.addEventListener("click", clear)
+
+                function clear() {
+                 window.location.reload()
+
+                }
+                //enables backspace to delete first number in string or however you are calling your method
+                document.addEventListener("keydown", KeyCheck);  
+                function KeyCheck(event)
+                {
+                var KeyID = event.keyCode;
+                switch(KeyID)
+                {
+             case 8:
+             removeOne()
+             break; 
+             case 46:
+             removeOne()
+             default:
+             break;
+        }
+    }
+
+    function removeOne() {
+        display.innerText = display.innerText.substring(0, display.innerText.length -1); 
+    }
+
+    //pushes symbol to create negative number
+    const
+}
             
     
 
