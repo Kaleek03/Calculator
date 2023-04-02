@@ -120,8 +120,8 @@
     border-radius: 70px;
 
     position: relative;
-    top: 205px;
-    left: 330px;
+    top: 285px;
+    left: 160px;
 }
 
 #grid-container .plus:hover {
@@ -193,7 +193,7 @@
 
     position: relative;
     bottom: 23px;
-    left: 230px;
+    left: 290px;
     
 
 }
@@ -218,8 +218,8 @@
     border-radius: 70px;
 
     position: relative;
-    top: 37px;
-    left: 330px;
+    top: 200px;
+    left: 77px;
 }
 
 #grid-container .minus:hover {
@@ -295,7 +295,7 @@
     background-color: rgb(242, 176, 76);
     
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     font-family:monospace;
 
 
@@ -306,8 +306,8 @@
     border-radius: 70px;
 
     position: relative;
-    bottom: 130px;
-    left: 330px;
+    top: 33px;
+    left: 335px;
 }
 
 #grid-container .multiply:hover {
@@ -329,8 +329,8 @@
     border-radius: 70px;
 
     position: relative;
-    bottom: 295px;
-    left: 10px;
+    bottom: 57px;
+    right: 80px;
     
 
 }
@@ -354,8 +354,8 @@
     border-radius: 70px;
 
     position: relative;
-    bottom: 375px;
-    left:115px;
+    bottom: 57px;
+    right: 55px;
     
 
 }
@@ -379,8 +379,8 @@
     border-radius: 70px;
 
     position: relative;
-    bottom: 454px;
-    left: 230px;
+    bottom: 57px;
+    right: 20px;
     
 
 }
@@ -405,8 +405,8 @@
     border-radius: 70px;
 
     position: relative;
-    bottom: 535px;
-    left: 330px;
+    bottom: 55px;
+    left: 0px;
 }
 
 #grid-container .divide:hover {
