@@ -24,7 +24,7 @@ body {
 
 .equation-box {
     display: table-cell;
-    background-color: rgb(127, 123, 123);
+    background-color: rgb(3, 3, 3);
     color: white;
     font-size: 60px;
     text-align:end;
