@@ -1,8 +1,8 @@
-.num0 {
+#num0 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
     text-align: start;
     padding-left: 15px;
@@ -14,7 +14,7 @@
     position: relative;
     top: 208px;
     left: 10px;
-    
+
 
 }
 
@@ -24,11 +24,11 @@
     scale: 1.1;
 }
 
-.equals {
+#equals {
     background-color: rgb(242, 176, 76);
     color: white;
     font-size: 40px;
-    font-family:monospace;
+    font-family: monospace;
 
     text-align: end;
     padding-right: 15px;
@@ -40,23 +40,23 @@
     position: relative;
     top: 370px;
     left: 240px;
-    
+
 
 }
 
-#grid-container .equals:hover {
+#grid-container #equals:hover {
     background-color: rgb(249, 204, 136);
     transition: all ease-in-out .5s;
 }
 
-.num1 {
+#num1 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -65,18 +65,18 @@
     position: relative;
     top: 121px;
     right: 167px;
-    
+
 
 }
 
-.num2 {
+#num2 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -87,14 +87,14 @@
     right: 144px;
 }
 
-.num3 {
+#num3 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -105,15 +105,15 @@
     right: 101px;
 }
 
-.plus {
+#plus {
     background-color: rgb(242, 176, 76);
-    
+
     color: white;
     font-size: 40px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -124,19 +124,19 @@
     left: 160px;
 }
 
-#grid-container .plus:hover {
+#grid-container #plus:hover {
     background-color: rgb(242, 176, 76);
 }
 
 
-.num4 {
+#num4 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -145,7 +145,7 @@
     position: relative;
     bottom: 44px;
     left: 2px;
-    
+
 
 }
 
@@ -154,14 +154,14 @@
     transition: all ease-in-out .5s;
 }
 
-.num5 {
+#num5 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -170,7 +170,7 @@
     position: relative;
     bottom: 44px;
     left: 29px;
-    
+
 }
 
 #grid-container button:hover {
@@ -178,14 +178,14 @@
     transition: all ease-in-out .5s;
 }
 
-.num6 {
+#num6 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -194,7 +194,7 @@
     position: relative;
     bottom: 44px;
     left: 70px;
-    
+
 
 }
 
@@ -203,15 +203,15 @@
     transition: all ease-in-out .5s;
 }
 
-.minus {
+#minus {
     background-color: rgb(242, 176, 76);
-    
+
     color: white;
     font-size: 40px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -222,18 +222,18 @@
     left: 77px;
 }
 
-#grid-container .minus:hover {
+#grid-container #minus:hover {
     background-color: rgb(242, 176, 76);
 }
 
-.num7 {
+#num7 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -242,18 +242,18 @@
     position: relative;
     bottom: 131px;
     right: 237px;
-    
+
 
 }
 
-.num8 {
+#num8 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -262,18 +262,18 @@
     position: relative;
     bottom: 131px;
     right: 210px;
-    
+
 
 }
 
-.num9 {
+#num9 {
     background-color: rgb(74, 74, 74);
     color: white;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -291,15 +291,15 @@
     transition: all ease-in-out .5s;
 }
 
-.multiply {
+#multiply {
     background-color: rgb(242, 176, 76);
-    
+
     color: white;
     font-size: 45px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -315,14 +315,14 @@
 }
 
 
-.AC {
+#AC {
     background-color: rgb(195, 192, 192);
     color: black;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -331,23 +331,23 @@
     position: relative;
     bottom: 57px;
     right: 80px;
-    
+
 
 }
 
-#grid-container .AC:hover {
+#grid-container #AC:hover {
     background-color: rgb(234, 231, 231);
     transition: all ease-in-out .5s;
 }
 
-.negative {
+#negative {
     background-color: rgb(195, 192, 192);
     color: black;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -356,23 +356,23 @@
     position: relative;
     bottom: 57px;
     right: 55px;
-    
+
 
 }
 
-#grid-container .negative:hover {
+#grid-container #negative:hover {
     background-color: rgb(234, 231, 231);
     transition: all ease-in-out .5s;
 }
 
-.percent {
+#percent {
     background-color: rgb(195, 192, 192);
     color: black;
     font-size: 30px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -381,7 +381,7 @@
     position: relative;
     bottom: 57px;
     right: 20px;
-    
+
 
 }
 
@@ -390,15 +390,15 @@
     transition: all ease-in-out .5s;
 }
 
-.divide {
+#divide {
     background-color: rgb(242, 176, 76);
-    
+
     color: white;
     font-size: 40px;
-    font-family:monospace;
+    font-family: monospace;
 
 
-    
+
     border: 0px;
     width: 80px;
     height: 80px;
@@ -409,6 +409,6 @@
     left: 0px;
 }
 
-#grid-container .divide:hover {
+#grid-container #divide:hover {
     background-color: rgb(242, 176, 76);
 }

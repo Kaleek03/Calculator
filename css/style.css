@@ -5,12 +5,12 @@ body {
 
 #container {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-#container  .Iphone {
+#container .Iphone {
     background-color: rgb(3, 3, 3);
     width: 419px;
     height: 800px;
@@ -19,16 +19,16 @@ body {
     border-style: ridge;
     border-color: rgb(197, 201, 204);
     /* overflow: hidden;  */
-    
+
 }
 
-.equation-box {
+#equation-box {
     display: table-cell;
     background-color: rgb(3, 3, 3);
     color: white;
     font-size: 60px;
-    text-align:end;
-    vertical-align:bottom;
+    text-align: end;
+    vertical-align: bottom;
     width: 415px;
     height: 200px;
     position: relative;
@@ -58,8 +58,8 @@ body {
     height: 8px;
     border-radius: 15px;
     position: relative;
-    left:178px;
-    bottom:245px;
+    left: 178px;
+    bottom: 245px;
 }
 
 .frontCam {
@@ -70,47 +70,47 @@ body {
     border-bottom-right-radius: 15px;
     position: relative;
     left: 143px;
-    bottom:210px;
+    bottom: 210px;
 }
 
 .camera {
     background-color: rgb(0, 0, 35);
-     width : 10px;
-     height: 10px;
-     border-style:outset;
-     border-width: 2px;
-     border-color: rgb(0, 0, 0);
-     border-radius: 25px;
-     position: relative;
-     left: 155px;
-     bottom: 240px;
+    width: 10px;
+    height: 10px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    position: relative;
+    left: 155px;
+    bottom: 240px;
 }
 
 .signal {
     filter: invert(98%) sepia(4%) saturate(887%) hue-rotate(171deg) brightness(114%) contrast(100%);
     width: 20px;
-    height:20px;
+    height: 20px;
     position: relative;
     left: 283px;
-    bottom:270px;
+    bottom: 270px;
 }
 
 .wifi {
     filter: invert(98%) sepia(4%) saturate(887%) hue-rotate(171deg) brightness(114%) contrast(100%);
     width: 20px;
-    height:20px;
+    height: 20px;
     position: relative;
     left: 292px;
-    bottom:270px;
+    bottom: 270px;
 }
 
 .batteryBorder {
     filter: invert(90%) sepia(0%) saturate(1247%) hue-rotate(183deg) brightness(79%) contrast(80%);
     width: 30px;
-    height:30px;
+    height: 30px;
     position: relative;
     left: 300px;
-    bottom:265px;
+    bottom: 265px;
 }
 
 .battery {
@@ -125,10 +125,9 @@ body {
 
 .time {
     color: white;
-    font-family:sans-serif ;
+    font-family: sans-serif;
     font-size: 15px;
     position: relative;
     bottom: 295px;
     left: 40px;
 }
-
