@@ -310,7 +310,7 @@
     left: 335px;
 }
 
-#grid-container .multiply:hover {
+#grid-container #multiply:hover {
     background-color: rgb(242, 176, 76);
 }
 
@@ -330,7 +330,7 @@
 
     position: relative;
     bottom: 57px;
-    right: 80px;
+    right: 165px;
 
 
 }
@@ -355,7 +355,7 @@
 
     position: relative;
     bottom: 57px;
-    right: 55px;
+    right: 142px;
 
 
 }
@@ -380,12 +380,12 @@
 
     position: relative;
     bottom: 57px;
-    right: 20px;
+    right: 102px;
 
 
 }
 
-#grid-container .percent:hover {
+#grid-container #percent:hover {
     background-color: rgb(234, 231, 231);
     transition: all ease-in-out .5s;
 }
@@ -406,7 +406,7 @@
 
     position: relative;
     bottom: 55px;
-    left: -150px;
+    left: 250px;
 }
 
 #grid-container #divide:hover {

@@ -106,8 +106,15 @@ function setupCalculator() {
         display.innerText = value
     })
 
-
+    const percentage = document.querySelector("#percent")
+    percentage.addEventListener("click", () => {
+        let value = ""
+        value = display.innerText
+        display.innerText = (value / 100)
+    })
 }
+
+
 
 
 
