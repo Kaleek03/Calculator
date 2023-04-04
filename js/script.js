@@ -1,13 +1,6 @@
 
 
-// declaring all constants
-const equals = document.querySelector('.equals')
-const plus = document.querySelector('.plus')
-const minus = document.querySelector('.minus')
-const multiply = document.querySelector('.multiply')
-const negative = document.querySelector('.negative')
-const percent = document.querySelector('.percent')
-const divide = document.querySelector('.divide')
+
 
 
 document.addEventListener("DOMContentLoaded", setupCalculator)
@@ -16,7 +9,21 @@ function setupCalculator() {
     const grid = document.querySelector("#grid-container")
     const display = document.querySelector("#equation-box")
 
-    let value = ""
+    let value = 0
+    let previousVal = 0
+    let pendingOperation = ""
+
+    function buttonUse(event) {
+        value = parseFloat(value + event.target.value)
+        display.innerText = value
+    }
+    function checkCheck(event) {
+        if (display.innerText.length == 12) {
+            event.target.removeEventListener("click", buttonUse)
+        } else {
+            return null
+        }
+    }
 
     for (i = 0; i <= 9; i++) {
         const button = document.createElement("button")
@@ -27,17 +34,6 @@ function setupCalculator() {
         button.addEventListener("click", buttonUse)
         button.addEventListener("click", checkCheck)
 
-        function buttonUse() {
-            value += button.value
-            display.innerText = value
-        }
-        function checkCheck() {
-            if (display.innerText.length == 12) {
-                button.removeEventListener("click", buttonUse)
-            } else {
-                return null
-            }
-        }
     }
     //adds event listener to reload page to all clear calculator
     const allClear = document.querySelector("#AC")
@@ -74,6 +70,42 @@ function setupCalculator() {
         value = value * -1
         display.innerText = value
     })
+
+    const operation = document.querySelectorAll(".op")
+
+    for (op of operation) {
+        op.addEventListener("click", event => {
+            theHandler(event.target)
+        })
+    }
+
+    function theHandler(op) {
+        if (pendingOperation == "") {
+            previousVal = value
+            value = ""
+            display.innerText = value
+        }
+        console.log(op.value)
+        pendingOperation = op.id
+
+    }
+
+    const equals = document.querySelector("#equals")
+
+    equals.addEventListener("click", () => {
+        switch (pendingOperation) {
+            case "plus": value += previousVal
+                break;
+            case "minus": value = previousVal - value
+                break;
+            case "multiply": value *= previousVal
+                break;
+            case "divide": value = previousVal / value
+                break;
+        }
+        display.innerText = value
+    })
+
 
 }
 
